@@ -1,0 +1,226 @@
+.sidebar{
+    width: 15%;
+    height: 100%;
+    background-color: #0a0909;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.first{
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    margin: 0vh 1vh 1vh 1vh;
+}
+
+.first1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first1 img {
+    border-radius: 50%;
+    padding: 2vh 0vh 2vh 0vh;
+    max-width: 25%;
+    height: auto
+}
+
+.free{
+    color: #d3d3d3b2; 
+    font-size: 0.9vw; 
+}
+
+.logo{
+    font: bold;
+    font-weight:900;
+    font-size : 1vw;
+}
+
+.first11{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 4vh 0vh 4vh 2vh;
+}
+
+.premium{
+    font-size : 1vw;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    padding:0.7vh 0vh 0.7vh 0vh;
+    margin: 0vh 1vh 1vh 0vh;
+    border-style: solid; 
+    border-color:rgba(0, 68, 255, 0.726);
+    border-width: 0.2vw; 
+    border-radius: 20px;
+}
+
+.second{
+    text-align: center;
+    color: aliceblue;
+    display: block;
+    margin: 2vh 1vh 1vh 1vh;
+}
+
+.common{
+    font-size : 0.9vw;
+    display: flex;
+    margin: 1vh 0vh 1vh 0vh;
+    padding: 5px 0px px 0px;
+    
+}
+
+.common a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 1vh;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey; 
+    width: 100%;
+    height: 2vw;
+    border-radius: 10vh;
+}
+
+.common a:hover {
+    background-color: rgba(255, 255, 255, 0.349);
+}
+
+.sec5 a, .sec10 a{
+    padding: 1vh 0vh 1vh 1vh;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    font-weight:900;
+    font-size : 1.2vw;
+}
+
+.sec11{
+    margin-top: 2vh;
+    padding: 0vh 3vh 3vh 2vh;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b6ab13; 
+    font-size: 1vw; 
+}
+
+.content{
+    background-image: url("31.jpg");
+    background-size: contain;
+    width: calc(100% - 15%); 
+    height: 100%; 
+    position: fixed;
+    top: 0; 
+    right: 0; 
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 2vh 2vh 2vh;
+}
+
+.leftvala{
+    background-color: #0a0909;
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white; 
+    font: bold;
+    font-weight:900;
+    font-size: 1vw; 
+    border-style: solid; 
+    border-color:black;
+    border-radius: 2vh;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin-top: 2%;
+}
+
+.rightvala{
+        background-color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 30px;
+        height: 40px;
+        padding-left: 20px;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 2%;
+        margin-right: 20px;
+}
+
+
+.rightvala img {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.task{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto; 
+    justify-content: flex-start; 
+    align-items: stretch; 
+    height: 85%;
+    background: linear-gradient(to right bottom, rgba(61, 158, 182, 0.2), rgba(16, 156, 180, 0.527));
+    margin: 5vh 2vh 5vh 2vh;
+    padding: 4vh 4vh 4vh 4vh;
+    border-radius: 50px;
+}
+
+
+.taskcommon{
+    display: block;
+    flex-shrink: 0;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0909;
+    border-style: solid; 
+    border-color:black;
+    border-radius: 15px;
+    width: 280px;
+    height: 100px;
+    margin: 1vh 1vh 1vh 1vh;
+    padding: 1vh 1vh 1vh 1vh;
+}
+
+.taskday{
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white; 
+    font: bold;
+    font-weight:900;
+    font-size: 15px; 
+    text-align: left;
+    margin: 0vh 0vh 2vh 0vh;
+    padding: 1vh 0vh 1vh 0vh;
+}
+
+.tasktask input {
+    font-family :Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(255, 255, 255, 0.377); 
+    font: bold;
+    font-weight:900;
+    font-size: 15px; 
+    text-align: left;
+    border-style: solid; 
+    border-color:rgba(255, 255, 255, 0.644);
+    border-radius: 10px;
+    padding: 1vh 0vh 1vh 2vh;
+    background-color: #0a0909;
+    width: 90%;
+}
